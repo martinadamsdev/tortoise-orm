@@ -17,7 +17,7 @@ from typing import (
 )
 
 import dmPython
-from pypika import Query
+from pypika_tortoise import Query
 
 from tortoise.backends.base.client import (
     BaseDBAsyncClient,
